@@ -97,7 +97,7 @@ nav-item/
 
 #### 1. 克隆项目
 ```bash
-git clone https://github.com/eooce/nav-Item.git
+git clone https://github.com/chiczheng/nav.git
 cd nav-item
 ```
 
@@ -134,7 +134,7 @@ cd .. && npm start
      -e NODE_ENV=production \
      -e ADMIN_USERNAME=admin \
      -e ADMIN_PASSWORD=123456 \
-     eooce/nav-item
+     chiczheng/nav
    ```
 ### 2: docker-compose.yaml 部署
 ```bash
@@ -142,7 +142,7 @@ version: '3'
 
 services:
   nav-item:
-    image: eooce/nav-item
+    image: chiczheng/nav
     container_name: nav-item
     ports:
       - "3000:3000"
@@ -156,11 +156,11 @@ services:
 ```
 ### 3: docker容器等使用docker image配合环境变量部署
 ```bash
-eooce/nav-item
+chiczheng/nav
 ```
 或
 ```bash
-ghcr.io/eooce/nav-item:latest
+ghcr.io/chiczheng/nav:latest
 ```
 
 ## serv00|ct8|Hostuno 一键安装脚本
@@ -169,7 +169,7 @@ ghcr.io/eooce/nav-item:latest
   * `DOMAIN`为自定义站点域名
 
 ```bash
-bash <(curl -Ls https://github.com/eooce/nav-item/releases/download/ct8-and-serv00/install.sh) 
+bash <(curl -Ls https://github.com/chiczheng/nav/releases/download/ct8-and-serv00/install.sh) 
 ```
 
 ## 🤝 贡献指南
@@ -186,7 +186,7 @@ bash <(curl -Ls https://github.com/eooce/nav-item/releases/download/ct8-and-serv
 
 ## 👨‍💻 作者
 
-**eooce** - [GitHub](https://github.com/eooce)
+**chiczheng** - [GitHub](https://github.com/chiczheng)
 
 ## 🙏 致谢
 
@@ -195,6 +195,7 @@ bash <(curl -Ls https://github.com/eooce/nav-item/releases/download/ct8-and-serv
 ---
 
 ⭐ 如果这个项目对你有帮助，请给它一个星标！ 
+
 
 
 
